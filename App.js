@@ -4,7 +4,8 @@ import {Box, Text, NativeBaseProvider} from 'native-base';
 // import SignIn from './screens/SignIn';
 // import Forgotpassword from './screens/ForgotPassword';
 // import SetPassword from './screens/SetPassword';
-import Home from './screens/Home';
+// import Home from './screens/Home';
+import ViewAll from './screens/ViewAll';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <SignIn /> */}
       {/* <Forgotpassword /> */}
       {/* <SetPassword /> */}
-      <Home />
+      {/* <Home /> */}
+      <ViewAll />
     </NativeBaseProvider>
   );
 };
